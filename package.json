@@ -1,0 +1,27 @@
+{
+  "name": "a03",
+  "version": "1.0.0",
+  "description": "rock-paper-scissors",
+  "main": "./lib/rpsls.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a03-evanliu0062"
+  },
+  "author": "evanliu",
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "./bin/rpsls-cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a03-evanliu0062/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a03-evanliu0062#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  },
+  "type": "module"
+}
